@@ -16,12 +16,19 @@ header{
 }
 
 
-.col{
-    outline: 2px rgb(255, 255, 255) solid;
+.head-row{
+    border-bottom: 1px rgba(255, 255, 255, 0.3) solid;
 }
 
+.search-bar{
+    border-left: 1px rgba(255, 255, 255, 0.3) solid;
+}
 
-
+.mdi{
+    background-color: white;
+    font-size: 2rem;
+    
+}
 .img-text{
     justify-content: center;
     padding: 29vh;
@@ -37,4 +44,8 @@ header{
 footer{
     height: 20vh;
     background-color: black;
+}
+
+.search-bar{
+    padding: 1em;
 }
