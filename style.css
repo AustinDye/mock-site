@@ -10,7 +10,7 @@ header{
 }
 
 .cover-img{
-    background-image: url('https://wallpapercave.com/wp/wp2754864.jpg');
+    background-image: url('https://cdn10.bigcommerce.com/s-o6vy9cv/products/156364/images/151837/V090420_%252859%2529__36798.1607106137.500.500.jpg?c=2');
     background-size: cover;
     height:50vh
 }
@@ -35,6 +35,20 @@ header{
     padding-left: 18vw;
 }
 
+a{
+    all: unset;
+}
+
+
+p{
+    font-size: small;
+}
+
+.img-text{
+    justify-content: center;
+    padding: 24vh;
+    padding-left: 18vw;
+}
 .news-stuff{
     padding-top: 5vh;
     justify-content: center;
@@ -49,3 +63,5 @@ footer{
 .search-bar{
     padding: 1em;
 }
+
+
