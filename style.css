@@ -19,10 +19,18 @@ button:hover{
     
 }
 
+button{
+    font-size:smaller;
+    text-decoration: none;
+}
+
 .cover-img{
-    background-image: url('https://cdn10.bigcommerce.com/s-o6vy9cv/products/156364/images/151837/V090420_%252859%2529__36798.1607106137.500.500.jpg?c=2');
+    position: relative;
+    background-image: url('https://www.denofgeek.com/wp-content/uploads/2022/03/the-godfather-hero-banner.jpg?fit=2000%2C500&resize=2000%2C500');
     background-size: cover;
-    height:63vh
+    height:37rem;
+    background-position:center;
+    padding-top: 95px;
 }
 
 
@@ -43,7 +51,7 @@ button:hover{
 .img-text{
     justify-content: center;
     padding: 25vh;
-    padding-left: 18vw;
+    padding-left: 10vw;
     color: white;
     font-weight:800
 }
