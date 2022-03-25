@@ -1,18 +1,28 @@
 header{
-    background-color: black;
+    background-color: rgb(40, 40, 40);
     font-family: 'Bungee', cursive;
     width:100%;
     position:sticky;
-    padding-top: 2px;
     z-index:25;
     color:rgb(255, 250, 241)
 
+
+}
+button{
+    background-color: rgb(40, 40, 40);
+    color:rgb(255, 250, 241) ;
+    border: none;
+    outline: none;
+}
+button:hover{
+    text-decoration: underline 2px yellow;
+    
 }
 
 .cover-img{
     background-image: url('https://cdn10.bigcommerce.com/s-o6vy9cv/products/156364/images/151837/V090420_%252859%2529__36798.1607106137.500.500.jpg?c=2');
     background-size: cover;
-    height:50vh
+    height:63vh
 }
 
 
@@ -25,15 +35,17 @@ header{
 }
 
 .mdi{
-    background-color: rgb(0, 0, 0);
-    color:blue;
-    font-size: 2rem;
+    background-color: rgb(40, 40, 40);
+    color:rgb(152, 152, 152);
+    font-size: 1.2rem;
     
 }
 .img-text{
     justify-content: center;
-    padding: 29vh;
+    padding: 25vh;
     padding-left: 18vw;
+    color: white;
+    font-weight:800
 }
 
 a{
@@ -45,11 +57,7 @@ p{
     font-size: small;
 }
 
-.img-text{
-    justify-content: center;
-    padding: 24vh;
-    padding-left: 18vw;
-}
+
 .news-stuff{
     padding-top: 5vh;
     justify-content: center;
